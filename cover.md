@@ -9,7 +9,7 @@
 * open the world
 
 [GitHub](https://github.com/xuwuruoshui)
-[Get Started](#quick-start)
+[Get Started](/guide)
 
 <!-- 背景图片 -->
 
