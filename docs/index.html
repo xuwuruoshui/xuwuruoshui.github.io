@@ -14,12 +14,11 @@
 
 <body>
   <nav>
-    <a href="../doc/">EN</a>
-    <a href="../doc/zh-cn/">中文</a>
+    <a href="#/">EN</a>
+    <a href="#/zh-cn/">中文</a>
   </nav>
   <div id="app">loading...</div>
   <script>
-
     window.$docsify = {
       loadSidebar: true,
       loadSidebar: 'sidebar.md',
@@ -33,10 +32,12 @@
       },
       auto2top: true,
       name: 'M78_MADAO_LAB',
+      basePath: '/docs/',
+      nameLink: '/',
       // 按照路由切换
       nameLink: {
-        '/zh-cn/': '../docs/zh-cn/',
-        '/': '../docs/'
+        '/zh-cn/': '/zh-cn/',
+        '/': '/'
       },
       // themeColor: '#3F51B5',
       executeScript: true,
